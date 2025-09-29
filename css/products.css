@@ -1,0 +1,9 @@
+
+body{font-family:Inter, Arial, sans-serif;background:#fafafa;color:#122;margin:0}
+.card.product{border:none;border-radius:12px;box-shadow:0 6px 24px rgba(16,24,40,0.06);overflow:hidden}
+.card.product img{height:220px;object-fit:cover;border-top-left-radius:12px;border-top-right-radius:12px;width:100%}
+
+/* Mobile navbar fix */
+.navbar { z-index: 1050; }
+.navbar-collapse.collapse { background: white; padding: .5rem 1rem; }
+@media (max-width: 991px) { .navbar-collapse .nav-link { padding: .5rem 0; } }

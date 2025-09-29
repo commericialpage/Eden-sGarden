@@ -1,0 +1,296 @@
+[
+  
+  {
+    "id": 1,
+    "name": "Blushing Rose Bouquet",
+    "category": "Love & Romance",
+    "price": 75,
+    "image": "assets/Blushing Rose Bouquet.jpeg",
+    "description": "A romantic bouquet of fresh roses.",
+    "featured": true
+  },
+
+  
+  {
+    "id": 3,
+    "name": "Chocolate Birthday Cake",
+    "category": "Birthday",
+    "price": 45,
+    "image": "assets/Chocolate Birthday Cake.jpeg",
+    "description": "Rich chocolate layered cake — serves 8.",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Birthday Rose Bouquet",
+    "category": "Birthday",
+    "price": 75,
+    "image": "assets/Birthday Rose Bouquet.jpeg",
+    "description": "Classic red roses for birthdays.",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "name": "Happy Birthday Mixed Bouquet",
+    "category": "Birthday",
+    "price": 65,
+    "image": "assets/Happy Birthday Mixed Bouquet.jpeg",
+    "description": "A mixed bouquet bursting with color.",
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "Vanilla Birthday Cake (8\")",
+    "category": "Birthday",
+    "price": 45,
+    "image": "assets/Vanilla Birthday Cake.jpeg",
+    "description": "Creamy vanilla layered cake perfect for parties.",
+    "featured": true
+  },
+  {
+    "id": 9,
+    "name": "Balloon Bouquet (Birthday Pack)",
+    "category": "Birthday",
+    "price": 15,
+    "image": "assets/Balloon Bouquet (Birthday Pack).jpeg",
+    "description": "Colorful helium balloons to celebrate.",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Explosion Gift Box - Birthday",
+    "category": "Birthday",
+    "price": 80,
+    "image": "assets/Explosion Gift Box - Birthday.jpeg",
+    "description": "Surprise box filled with treats and keepsakes.",
+    "featured": false
+  },
+
+
+
+
+
+  {
+    "id": 2,
+    "name": "Sunshine Summer Mix",
+    "category": "Summer",
+    "price": 65,
+    "image": "assets/Sunshine Summer Mix Large.jpeg",
+    "description": "Bright mixed flowers for sunny days.",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "Sunshine Summer Mix Large",
+    "category": "Summer",
+    "price": 65,
+    "image": "assets/Sunshine Summer Mix Large.jpeg",
+    "description": "Bright mixed flowers for sunny days.",
+    "featured": true
+  },
+  {
+    "id": 12,
+    "name": "Tropical Summer Bouquet",
+    "category": "Summer",
+    "price": 72,
+    "image": "assets/Tropical Summer Bouquet.jpeg",
+    "description": "Tropical blooms with vibrant hues.",
+    "featured": false
+  },
+  {
+    "id": 13,
+    "name": "Citrus Fruit Bouquet",
+    "category": "Summer",
+    "price": 55,
+    "image": "assets/Citrus Fruit Bouquet.jpeg",
+    "description": "Freshly arranged citrus fruits in bouquet style.",
+    "featured": false
+  },
+  {
+    "id": 14,
+    "name": "Summer Breeze Arrangement",
+    "category": "Summer",
+    "price": 50,
+    "image": "assets/Summer Breeze Arrangement.jpeg",
+    "description": "Light, airy bouquet perfect for summer.",
+    "featured": false
+  },
+  {
+    "id": 15,
+    "name": "Bright Sunflower Bunch",
+    "category": "Summer",
+    "price": 25,
+    "image": "assets/Bright Sunflower Bunch.jpeg",
+    "description": "Large sunflowers to brighten their day.",
+    "featured": false
+  },
+
+  
+
+
+
+  {
+    "id": 5,
+    "name": "Gift Basket — Sweet & Spicy",
+    "category": "Gift",
+    "price": 95,
+    "image": "assets/Gift Basket — Sweet & Spicy.jpeg",
+    "description": "Assorted snacks and treats.",
+    "featured": false
+  },
+  {
+    "id": 16,
+    "name": "Sweet & Spicy Gift Basket",
+    "category": "Gift",
+    "price": 95,
+    "image": "assets/Sweet & Spicy Gift Basket.jpeg",
+    "description": "Assorted snacks and treats.",
+    "featured": false
+  },
+  {
+    "id": 17,
+    "name": "Gourmet Snack Hamper",
+    "category": "Gift",
+    "price": 105,
+    "image": "assets/Gourmet Snack Hamper.jpeg",
+    "description": "Premium snacks and chocolates.",
+    "featured": false
+  },
+  {
+    "id": 18,
+    "name": "Deluxe Gift Basket",
+    "category": "Gift",
+    "price": 120,
+    "image": "assets/Deluxe Gift Basket.jpeg",
+    "description": "Luxury gift set for special occasions.",
+    "featured": false
+  },
+  {
+    "id": 19,
+    "name": "Greeting Card Pack",
+    "category": "Gift",
+    "price": 15,
+    "image": "assets/Greeting Card Pack.jpeg",
+    "description": "Set of beautifully designed cards.",
+    "featured": false
+  },
+  {
+    "id": 20,
+    "name": "Assorted Gift Bundle",
+    "category": "Gift",
+    "price": 80,
+    "image": "assets/Assorted Gift Bundle.jpeg",
+    "description": "A curated bundle of small gifts.",
+    "featured": false
+  },
+
+
+
+
+  
+  {
+    "id": 4,
+    "name": "Neclace",
+    "category": "Jewelry",
+    "price": 2000,
+    "image": "assets/necklace3.jpeg",
+    "description": "Respectful arrangement for memorials.",
+    "featured": false
+  },
+  {
+    "id": 21,
+    "name": "Luxury watch",
+    "category": "Jewelry",
+    "price": 900,
+    "image": "assets/watch.jpeg",
+    "description": "Respectful arrangement for memorials.",
+    "featured": false
+  },
+  {
+    "id": 22,
+    "name": "Watch",
+    "category": "Jewelry",
+    "price": 1050,
+    "image": "assets/watch2.jpeg",
+    "description": "Clean, white lilies for condolences.",
+    "featured": false
+  },
+  {
+    "id": 23,
+    "name": "Cremation Wealth",
+    "category": "Jewelry",
+    "price": 150,
+    "image": "assets/Cremation Wealth.jpeg",
+    "description": "A dignified wreath for memorial services.",
+    "featured": false
+  },
+  {
+    "id": 24,
+    "name": "Diamon Necklace",
+    "category": "Jewelry",
+    "price": 700,
+    "image": "assets/necklace4.jpeg",
+    "description": "Large standing spray for ceremonies.",
+    "featured": false
+  },
+  {
+    "id": 25,
+    "name": "Bracelet",
+    "category": "Jewelry",
+    "price": 500,
+    "image": "assets/Bracelet.jpeg",
+    "description": "Comforting basket with treats.",
+    "featured": false
+  },
+
+  
+
+
+
+  
+  {
+    "id": 26,
+    "name": "White",
+    "category": "New Arrivals",
+    "price": 85,
+    "image": "assets/White.jpeg",
+    "description": "Seasonal peonies in soft pastel shades.",
+    "featured": true
+  },
+  {
+    "id": 27,
+    "name": "Teddy Bear",
+    "category": "New Arrivals",
+    "price": 55,
+    "image": "assets/teddy.jpeg",
+    "description": "Decadent raspberry cheesecake, serves 6-8.",
+    "featured": true
+  },
+  {
+    "id": 28,
+    "name": "Small Rose Package",
+    "category": "New Arrivals",
+    "price": 20,
+    "image": "assets/small roses package.jpeg",
+    "description": "Low maintenance succulent in a decorative pot.",
+    "featured": false
+  },
+  {
+    "id": 29,
+    "name": "Sun Flower",
+    "category": "New Arrivals",
+    "price": 45,
+    "image": "assets/Sun flower.jpeg",
+    "description": "Relaxing lavender-scented gifts and sachets.",
+    "featured": false
+  },
+  {
+    "id": 30,
+    "name": "Blue light",
+    "category": "New Arrivals",
+    "price": 95,
+    "image": "assets/Blue light.jpeg",
+    "description": "A premium mix of seasonal blooms.",
+    "featured": true
+  }
+]
