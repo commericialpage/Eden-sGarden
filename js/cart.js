@@ -108,7 +108,7 @@ document.addEventListener('click', (e)=>{
       message += encodeURIComponent('Total: ' + window.store.formatPrice(total)) + '%0A';
       message += encodeURIComponent('Customer: (Add your name here)') + '%0A';
 
-      const TELEGRAM_LINK = 'https://t.me/Benjamin_Sugar'; // replace with your merchant username
+      const TELEGRAM_LINK = 'https://t.me/edensflowerboutique'; // replace with your merchant username
       const url = `${TELEGRAM_LINK}?text=${message}`;
 
       if(OPTIONAL_WEBHOOK_URL){
