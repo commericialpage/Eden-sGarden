@@ -332,7 +332,7 @@
     "id": 34,
     "name": "M&M's Halloween Special",
     "category": "halloween",
-    "price": 100,
+    "price": 300,
     "image": "assets/M&M's Halloween special.jpeg",
     "description": "M&M's Halloween Special pack",
     "featured": false
@@ -351,7 +351,7 @@
     "id": 36,
     "name": "Halloween Mega Basket",
     "category": "halloween",
-    "price": 150,
+    "price": 1000,
     "image": "assets/Halloween Mega Basket.jpeg",
     "description": "massive halloween basket",
     "featured": true
@@ -361,7 +361,7 @@
     "id": 37,
     "name": "Halloween Devil Tedy",
     "category": "halloween",
-    "price": 150,
+    "price": 1000,
     "image": "assets/Halloween Devil Teddy.jpeg",
     "description": "Teddy bear",
     "featured": true
