@@ -7,7 +7,7 @@
     "price": 75,
     "image": "assets/Blushing Rose Bouquet.jpeg",
     "description": "A romantic bouquet of fresh roses.",
-    "featured": true
+    "featured": false
   },
 
   
@@ -45,7 +45,7 @@
     "price": 45,
     "image": "assets/Vanilla Birthday Cake.jpeg",
     "description": "Creamy vanilla layered cake perfect for parties.",
-    "featured": true
+    "featured": false
   },
   {
     "id": 9,
@@ -306,7 +306,7 @@
     "price": 1000,
     "image": "assets/spookey halloween basket.jpeg",
     "description": "Fun gifts and surprises.",
-    "featured": true
+    "featured": false
   },
   {
     "id": 32,
@@ -315,7 +315,7 @@
     "price": 850,
     "image": "assets/Cheerful Halloween Basket.jpeg",
     "description": "Filled with candy",
-    "featured": true
+    "featured": false
   },
   
   {
@@ -325,7 +325,7 @@
     "price": 800,
     "image": "assets/Orin Swift Papillon Red Blend.jpeg",
     "description": "Evokes a dark, mysterious allure,",
-    "featured": true
+    "featured": false
   },
 
  {
@@ -335,7 +335,7 @@
     "price": 100,
     "image": "assets/M&M's Halloween special.jpeg",
     "description": "M&M's Halloween Special pack",
-    "featured": true
+    "featured": false
   },
 
   {
@@ -345,7 +345,7 @@
     "price": 150,
     "image": "assets/Halloween Chocolate Pack.jpeg",
     "description": "combination of halloween treats",
-    "featured": true
+    "featured": false
   },
   {
     "id": 36,
