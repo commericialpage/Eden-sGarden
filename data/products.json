@@ -192,7 +192,7 @@
     "id": 4,
     "name": "Neclace",
     "category": "Jewelry",
-    "price": 800,
+    "price": 2000,
     "image": "assets/Necklace 0.1.jpeg",
     "description": "Respectful arrangement for memorials.",
     "featured": false
@@ -292,5 +292,79 @@
     "image": "assets/Blue light.jpeg",
     "description": "A premium mix of seasonal blooms.",
     "featured": true
+  },
+
+
+
+
+
+
+  {
+    "id": 31,
+    "name": "Spooky Halloween Basket",
+    "category": "halloween",
+    "price": 1000,
+    "image": "assets/spookey halloween basket.jpeg",
+    "description": "Fun gifts and surprises.",
+    "featured": true
+  },
+  {
+    "id": 32,
+    "name": "Cheerful Halloween Basket",
+    "category": "halloween",
+    "price": 850,
+    "image": "assets/Cheerful Halloween Basket.jpeg",
+    "description": "Filled with candy",
+    "featured": true
+  },
+  
+  {
+    "id": 33,
+    "name": "Orin Swift Papillon Red Blend",
+    "category": "halloween",
+    "price": 800,
+    "image": "assets/Orin Swift Papillon Red Blend.jpeg",
+    "description": "Evokes a dark, mysterious allure,",
+    "featured": true
+  },
+
+ {
+    "id": 34,
+    "name": "M&M's Halloween Special",
+    "category": "halloween",
+    "price": 100,
+    "image": "assets/M&M's Halloween special.jpeg",
+    "description": "M&M's Halloween Special pack",
+    "featured": true
+  },
+
+  {
+    "id": 35,
+    "name": "Halloween Candy/Chocolate collection",
+    "category": "halloween",
+    "price": 150,
+    "image": "assets/Halloween Chocolate Pack.jpeg",
+    "description": "combination of halloween treats",
+    "featured": true
+  },
+  {
+    "id": 36,
+    "name": "Halloween Mega Basket",
+    "category": "halloween",
+    "price": 150,
+    "image": "assets/Halloween Mega Basket.jpeg",
+    "description": "massive halloween basket",
+    "featured": true
+  },
+
+{
+    "id": 37,
+    "name": "Halloween Devil Tedy",
+    "category": "halloween",
+    "price": 150,
+    "image": "assets/Halloween Devil Teddy.jpeg",
+    "description": "Teddy bear",
+    "featured": true
   }
+  
 ]
