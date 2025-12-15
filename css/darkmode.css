@@ -3,7 +3,8 @@
   --text-color: #112222;
   --card-bg: #ffffff;
   --navbar-bg: #ffffff;
-  --navbar-text: #198754; /* text-success default */
+  --navbar-text: #198754;
+  /* text-success default */
   --footer-bg: #ffffff;
   --footer-text: #6b7280;
   --accent-color: #198754;
@@ -38,17 +39,18 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.navbar, .navbar-collapse.collapse {
+.navbar,
+.navbar-collapse.collapse {
   background-color: var(--navbar-bg) !important;
 }
 
-.navbar-light .navbar-brand, 
+.navbar-light .navbar-brand,
 .navbar-light .navbar-nav .nav-link {
   color: var(--text-color) !important;
 }
 
-.navbar-light .navbar-nav .nav-link.active, 
-.navbar-light .navbar-nav .show > .nav-link {
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
   color: var(--accent-color) !important;
 }
 
@@ -79,12 +81,14 @@ footer {
   color: var(--dropdown-text) !important;
 }
 
-.dropdown-item:hover, .dropdown-item:focus {
+.dropdown-item:hover,
+.dropdown-item:focus {
   background-color: var(--dropdown-hover-bg) !important;
   color: var(--dropdown-text) !important;
 }
 
-.form-control, .form-select {
+.form-control,
+.form-select {
   background-color: var(--input-bg) !important;
   color: var(--input-text) !important;
   border-color: var(--border-color) !important;
@@ -94,8 +98,15 @@ footer {
 #dark-mode-toggle {
   cursor: pointer;
   padding: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   background: none;
   border: none;
   color: var(--text-color);
+  margin-right: 10px;
+  z-index: 1051;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
 }
