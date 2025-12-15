@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eden Garden — Fresh Flowers & Gifts</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/darkmode.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-success" href="index.html">Eden Garden</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categories</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="products.html?cat=Birthday">Birthday</a></li>
+              <li><a class="dropdown-item" href="products.html?cat=Summer">Summer</a></li>
+              <li><a class="dropdown-item" href="products.html?cat=Jewelry">Jewelry</a></li>
+              <li><a class="dropdown-item" href="products.html?cat=Christmas">Christmas</a></li>
+              <li><a class="dropdown-item" href="products.html?cat=Gift">Gift</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-3"><a class="btn btn-outline-success" href="cart.html">Cart <span id="cart-count"
+                class="badge bg-success ms-2">0</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Notification container -->
+  <div id="cart-notification" class="alert alert-success text-center"
+    style="display:none; position:fixed; top:0; left:0; right:0; z-index:2000; margin:0; border-radius:0;">
+    Item added to cart!
+  </div>
+
+  <header class="hero py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold">Fresh Flowers & Joyful Moments</h1>
+          <p class="lead">Celebrate life with vibrant bouquets, birthday cakes, and thoughtful gifts. Fast delivery,
+            beautiful arrangements.</p>
+          <a href="products.html?cat=New+Arrivals" class="btn btn-lg btn-success me-2">Shop New Arrivals</a>
+          <a href="products.html" class="btn btn-outline-success btn-lg">Browse All</a>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <!-- <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.EZt74NIuoph91CFSlxkkFwHaE8%3Fpid%3DApi&f=1&ipt=881f60b86fd9a498237a12698ffd44ff0914b736f3d24dfefb7e5dc7e0a8d23e&ipo=images" alt="Flowers hero" class="img-fluid rounded shadow-lg">  -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="h4">Featured</h2>
+        <a href="products.html" class="text-decoration-none">View all →</a>
+      </div>
+      <div id="featured-row" class="row g-3"></div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h3 class="h5 mb-4">Shop by category</h3>
+      <div class="row g-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <a href="products.html?cat=Birthday" class="cat-card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.vlzCxFRYROmupvvCah0xjgHaE8%3Fpid%3DApi&f=1&ipt=7104bb8c32d09cb8d11edffa836ad10e6804323955e615ea4d8de41605c19a30&ipo=images"
+              alt="Birthday" class="img-fluid rounded-top">
+            <div class="p-3 bg-white rounded-bottom">Birthday</div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <a href="products.html?cat=Summer" class="cat-card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.7Q1a1B9iSx7fymMfp43OAgHaEo%3Fpid%3DApi&f=1&ipt=4aee5357aad23b41327c245d9af9171f1a597d0eea50280a4bb8f85d91437576&ipo=images"
+              alt="Summer" class="img-fluid rounded-top">
+            <div class="p-3 bg-white rounded-bottom">Summer</div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <a href="products.html?cat=Gift" class="cat-card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.R-MTmPDkPmnqCFIrMmWWnwHaE8%3Fpid%3DApi&f=1&ipt=3ca13182ae16b2a420cf30842aa473079df89b4033dd4c8fed34f66a227ab338&ipo=images"
+              alt="Gifts" class="img-fluid rounded-top">
+            <div class="p-3 bg-white rounded-bottom">Gift</div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <a href="products.html?cat=Jewelry" class="cat-card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.P_-HHnNXkilR52auzCQ25QHaE7%3Fpid%3DApi&f=1&ipt=0f7602be232f9870204c56910e3d15219710f9f4225e8d68a97a818c0b856044&ipo=images"
+              alt="Sympathy" class="img-fluid rounded-top">
+            <div class="p-3 bg-white rounded-bottom">Jewelry</div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <a href="products.html?cat=Christmas" class="cat-card">
+            <img
+              src="assets/christmas cover.jpeg"
+              alt="Sympathy" class="img-fluid rounded-top">
+            <div class="p-3 bg-white rounded-bottom">christmas</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notification for Add to Cart -->
+  <div id="cart-notification" style="display:none;position:fixed;bottom:20px;right:20px;
+       background:#198754;color:white;padding:10px 16px;
+       border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.2);
+       z-index:2000;">
+  </div>
+
+
+
+
+  <footer class="py-4 bg-white mt-5 shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <div>&copy; Eden Garden <span id="year"></span></div>
+      <div><a href="privacy.html" class="text-decoration-none">Privacy</a> · <a href="terms.html"
+          class="text-decoration-none">Terms</a></div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+
+</html>

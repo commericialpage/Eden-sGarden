@@ -1,0 +1,101 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #112222;
+  --card-bg: #ffffff;
+  --navbar-bg: #ffffff;
+  --navbar-text: #198754; /* text-success default */
+  --footer-bg: #ffffff;
+  --footer-text: #6b7280;
+  --accent-color: #198754;
+  --border-color: #e5e7eb;
+  --input-bg: #ffffff;
+  --input-text: #212529;
+  --dropdown-bg: #ffffff;
+  --dropdown-text: #212529;
+  --dropdown-hover-bg: #e9ecef;
+}
+
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --card-bg: #1e1e1e;
+  --navbar-bg: #1e1e1e;
+  --navbar-text: #2ecc71;
+  --footer-bg: #1e1e1e;
+  --footer-text: #a0a0a0;
+  --accent-color: #2ecc71;
+  --border-color: #333333;
+  --input-bg: #2d2d2d;
+  --input-text: #e0e0e0;
+  --dropdown-bg: #2d2d2d;
+  --dropdown-text: #e0e0e0;
+  --dropdown-hover-bg: #3d3d3d;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar, .navbar-collapse.collapse {
+  background-color: var(--navbar-bg) !important;
+}
+
+.navbar-light .navbar-brand, 
+.navbar-light .navbar-nav .nav-link {
+  color: var(--text-color) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show > .nav-link {
+  color: var(--accent-color) !important;
+}
+
+.card {
+  background-color: var(--card-bg) !important;
+  color: var(--text-color) !important;
+  border-color: var(--border-color) !important;
+}
+
+.bg-white {
+  background-color: var(--card-bg) !important;
+}
+
+.bg-light {
+  background-color: var(--bg-color) !important;
+}
+
+footer {
+  background-color: var(--footer-bg) !important;
+  color: var(--footer-text) !important;
+}
+
+.dropdown-menu {
+  background-color: var(--dropdown-bg) !important;
+}
+
+.dropdown-item {
+  color: var(--dropdown-text) !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: var(--dropdown-hover-bg) !important;
+  color: var(--dropdown-text) !important;
+}
+
+.form-control, .form-select {
+  background-color: var(--input-bg) !important;
+  color: var(--input-text) !important;
+  border-color: var(--border-color) !important;
+}
+
+/* Dark mode toggle button style */
+#dark-mode-toggle {
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  color: var(--text-color);
+}
