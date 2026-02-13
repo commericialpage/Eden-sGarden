@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Blushing Rose Bouquet",
+    "name": "CrossBody luis vitton Bag",
     "category": "Love & Romance",
     "price": 110,
-    "image": "assets/Blushing Rose Bouquet.jpeg",
-    "description": "A romantic bouquet of fresh roses.",
-    "featured": false
+    "image": "assets/crossbodybag.jpeg",
+    "description": "CrossBody louis vitton Bag.",
+    "featured": true
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "price": 150,
     "image": "assets/Birthday Rose Bouquet.jpeg",
     "description": "Classic red roses for birthdays.",
-    "featured": true
+    "featured": false
   },
   {
     "id": 7,
@@ -82,12 +82,12 @@
   },
   {
     "id": 12,
-    "name": "Tropical Summer Bouquet",
+    "name": "Channel Bag",
     "category": "Summer",
     "price": 172,
-    "image": "assets/Tropical Summer Bouquet.jpeg",
-    "description": "Tropical blooms with vibrant hues.",
-    "featured": false
+    "image": "assets/channelBag.jpeg",
+    "description": "Channel handbag",
+    "featured": true
   },
   {
     "id": 13,
@@ -226,11 +226,11 @@
   },
   {
     "id": 26,
-    "name": "White",
+    "name": "Dior Bag",
     "category": "New Arrivals",
     "price": 205,
-    "image": "assets/White.jpeg",
-    "description": "Seasonal peonies in soft pastel shades.",
+    "image": "assets/diorbag.jpeg",
+    "description": " Dior Handnag",
     "featured": true
   },
   {
