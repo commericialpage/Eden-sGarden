@@ -3,7 +3,7 @@
     "id": 1,
     "name": "CrossBody luis vitton Bag",
     "category": "Love & Romance",
-    "price": 110,
+    "price": 659,
     "image": "assets/crossbodybag.jpeg",
     "description": "CrossBody louis vitton Bag.",
     "featured": true
@@ -84,7 +84,7 @@
     "id": 12,
     "name": "Channel Bag",
     "category": "Summer",
-    "price": 172,
+    "price": 730,
     "image": "assets/channelBag.jpeg",
     "description": "Channel handbag",
     "featured": true
@@ -228,7 +228,7 @@
     "id": 26,
     "name": "Dior Bag",
     "category": "New Arrivals",
-    "price": 205,
+    "price": 864,
     "image": "assets/diorbag.jpeg",
     "description": " Dior Handnag",
     "featured": true
